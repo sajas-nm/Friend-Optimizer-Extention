@@ -1,0 +1,75 @@
+.ext_btn {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 12px;
+  right: 50px;
+  border-radius: 5px;
+  background: #00bcd4;
+  border: none;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+.ext_btn:hover {
+  background: #037488;
+}
+.ext_btn_input {
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 15px;
+  right: 91px;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  /* text-align: center; */
+  background: #00bcd4;
+  border: none;
+  color: #fff;
+  /* padding: 4px; */
+  display: flex;
+  justify-content: center;
+}
+
+.fm_loading_element {
+  height: 160px;
+  width: 460px;
+  background: linear-gradient(90deg, #0091ea 0%, #00bfa5 100%);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.fm_loading_element_wrapper {
+  text-align: center;
+}
+
+.fm_loading_element_text_wrapper {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  color: white;
+}
+
+.fm_loading_element_count_wrapper {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 16px;
+}
+
+.fm_loading_element_stop_btn {
+  background: #f56565;
+  padding: 5px 25px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.messageTextMC {
+  text-align: center;
+}
